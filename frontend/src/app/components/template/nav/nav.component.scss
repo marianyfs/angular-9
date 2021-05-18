@@ -1,0 +1,10 @@
+@use '../../../styles/tokens.scss';
+
+.sidenav {
+  background-color: tokens.$primary;
+  width: 200px;
+
+  a {
+    color: tokens.$white;
+  }
+}
